@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reactform{
+    position: relative;
+    top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 600px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.55);
+    box-shadow: 0px 14px 31px 3px rgba(0,0,0,0.75);
+}
+#heading{
+    position: relative;
+    bottom: 30px;
+}
+#emaillabel{
+    position: relative;
+    right: 55px;
+}
+#emailfield{
+    position: relative;
+    left: 14px;
+    margin-bottom: 30px;
+}
+input{
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    width: 250px;
+    height: 30px;
+}
+label{
+    position: relative;
+    right: 35px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.submit-btn{
+    position: relative;
+    top: 50px;
+    padding: 15px 30px;
+    font-weight: bold;
+    box-shadow: 0px 14px 31px 3px rgba(0,0,0,0.75);
+}

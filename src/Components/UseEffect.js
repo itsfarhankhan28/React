@@ -9,7 +9,11 @@ const UseEffect = () => {
     }
 
     useEffect(()=>{
+      if(count >= 1){
         document.title = `Count ${count}`
+      }else{
+        document.title = `Count`
+      }
     })
 
   return (

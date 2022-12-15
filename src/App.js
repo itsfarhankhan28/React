@@ -5,6 +5,7 @@ import UseStateArray from './Components/UseStateArray';
 import UseStateSO from './Components/UseStateSO';
 import Reactform from './Components/Reactform';
 import UseEffect from './Components/UseEffect';
+import UseRef from './Components/UseRef';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
     {/* <UseStateArray/> */}
     {/* <UseStateSO/> */}
     {/* <Reactform/> */}
-    {<UseEffect/>}
+    {/* {<UseEffect/>} */}
+    <UseRef/>
     </>
   );
 }

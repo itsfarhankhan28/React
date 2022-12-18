@@ -6,6 +6,7 @@ import UseStateSO from './Components/UseStateSO';
 import Reactform from './Components/Reactform';
 import UseEffect from './Components/UseEffect';
 import UseRef from './Components/UseRef';
+import UseReducer from './Components/UseReducer';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
     {/* <UseStateSO/> */}
     {/* <Reactform/> */}
     {/* {<UseEffect/>} */}
-    <UseRef/>
+    {/* <UseRef/> */}
+    <UseReducer/>
     </>
   );
 }

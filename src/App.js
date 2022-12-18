@@ -7,6 +7,7 @@ import Reactform from './Components/Reactform';
 import UseEffect from './Components/UseEffect';
 import UseRef from './Components/UseRef';
 import UseReducer from './Components/UseReducer';
+import UseRefprac from './Components/UseRefprac';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
     {/* <Reactform/> */}
     {/* {<UseEffect/>} */}
     {/* <UseRef/> */}
-    <UseReducer/>
+    {/* <UseReducer/> */}
+    {<UseRefprac/>}
     </>
   );
 }
